@@ -1,4 +1,0 @@
-E:\website\HammerAuction\我锤拍卖\bin\我锤拍卖.dll
-E:\website\HammerAuction\我锤拍卖\bin\我锤拍卖.pdb
-E:\website\HammerAuction\我锤拍卖\obj\Debug\我锤拍卖.dll
-E:\website\HammerAuction\我锤拍卖\obj\Debug\我锤拍卖.pdb
