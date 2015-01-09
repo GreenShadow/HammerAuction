@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="HammerAuction.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="/css/nav_css.css" rel="stylesheet" type="text/css" />
+</head>
+<body leftmargin="6px" topmargin="0" rightmargin="6px">
+    <style>
+        a:link, a:visited, a:hover, a:active
+        {
+            color: #000000;
+        }
+    </style>
+    <form id="master" runat="server">
+    <div style="height: 100px;">
+        <div id="info_bar" style="width: auto; background-color: #D8D8D8;">
+            <div id="info_bar_item" align="left" style="margin-left: 10px">
+                <font face="Hiragino Sans GB" size="2">我锤网上竞拍系统&nbsp;|&nbsp;小组成员：郭如祎，郭磊，郭文刚，刘宗超，高慕航&nbsp;|&nbsp;指导教师：陈够喜</font>
+            </div>
+            <div id="info_bar_item" style="float: right; margin-right: 10px;">
+                <div id="info_arear">
+                    <font face="Hiragino Sans GB" size="2">
+                    <a id="login_username" target="_parent" runat="server">登陆</a>
+                    <span>&nbsp;|&nbsp;</span>
+                    <a id="signin_outlog" target="_parent" runat="server">注册</a>
+                    </font>
+                </div>
+            </div>
+        </div>
+        <div id="Div1" style="width: 100%; margin-left: 6px; margin-right: 6px; margin-bottom: -20px">
+            <table border="0" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td>
+                        <a href="/MainPage.aspx" target="_parent">
+                            <div style="display: inline">
+                                <div id="div_logo" align="center">
+                                    <img height="70px" src="/img/logo.jpg" /></div>
+                                <div id="div_logo" align="center">
+                                    <font face="Hiragino Sans GB" size="6">&nbsp;&nbsp;&nbsp;我锤拍卖</font>
+                                </div>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <div style="width: 80px">
+                        </div>
+                    </td>
+                    <td>
+                        <a href="/MainPage.aspx" target="_parent">
+                            <div id="nav_item" align="center">
+                                <font>首页</font>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a>
+                            <div id="nav_item" align="center">
+                                <font>电子产品</font>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a>
+                            <div id="nav_item" align="center">
+                                <font>日用品</font>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a>
+                            <div id="nav_item" align="center">
+                                <font>艺术品</font>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a>
+                            <div id="nav_item" align="center">
+                                <font>虚拟物品</font>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a>
+                            <div id="nav_item" align="center">
+                                <font>文物古董</font>
+                            </div>
+                        </a>
+                    </td>
+                    <td>
+                        <a>
+                            <div id="nav_item" align="center">
+                                <font>其他</font>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <div align="center">
+        <font face="Hiragino Sans GB" color="#808080">2015年1月&nbsp;|&nbsp;版权所有：中北大学12210F01</font>
+    </div>
+</body>
+</html>
